@@ -18,7 +18,6 @@ This documentation includes:
 ## About this guide
 
 <div class="note-box">
-  <strong>Version:</strong> 1.0<br>
   <strong>Last updated:</strong> December 2025<br>
   <strong>Authors:</strong> Antti Huttunen &amp; Jere Mäkivierikko<br>
   <strong>Organization:</strong> OAMK – Degree Programme in Information Technology
