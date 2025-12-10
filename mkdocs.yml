@@ -1,0 +1,43 @@
+site_name: CSC cPouta User Guide
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+    - navigation.expand
+    - content.code.copy
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - 1. Introduction: 1-introduction.md
+  - 2. Creating a CSC Account: 2-account.md
+  - 3. Creating a New Project: 3-project.md
+  - 4. Creating a Virtual Machine: 4-vm.md
+  - 5. Launching a Virtual Machine: 5-launching.md
+  - 6. Connecting to Your VM: 6-connecting.md
+  - 7. Installing Docker: 7-docker.md
+  - 8. Hosting Demo Website: 8-demo.md
+  - 9. Security: 9-security.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - def_list
+  - attr_list
+
+extra_css:
+  - styles/extra.css
