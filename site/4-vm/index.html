@@ -726,7 +726,7 @@
 <li>Key Type should be <strong>SSH Key</strong> </li>
 <li>Click <strong>+ Create Key Pair</strong>. This will download the key as <code>.pem</code> file
     <p align="center">
-    <img src="/images/picture9.png" alt="Screenshot of cPouta Key Pairs generation menu" class="guide-screenshot" />
+    <img src="../images/picture9.png" alt="Screenshot of cPouta Key Pairs generation menu" class="guide-screenshot" />
     </p></li>
 </ol>
 <p><strong>Important:</strong> This is your private key. It cannot be downloaded again.</p>
@@ -736,16 +736,16 @@
 <ol>
 <li>Run <strong>PuTTYgen</strong> and click <strong>Load</strong>
     <p align="center">
-    <img src="/images/picture10.png" alt="Screenshot of PuTTYgen software" class="guide-screenshot" />
+    <img src="../images/picture10.png" alt="Screenshot of PuTTYgen software" class="guide-screenshot" />
     </p></li>
 <li>Change file filter to <strong>All files (<em>.</em>)</strong> and select the key you created (keyname.pem)
     <p align="center">
-    <img src="/images/picture11.png" alt="Screenshot of PuTTYgen loading private key file." class="guide-screenshot" />
+    <img src="../images/picture11.png" alt="Screenshot of PuTTYgen loading private key file." class="guide-screenshot" />
     </p></li>
 <li>
 <p>Set a password to the key. This is not required, but it is advised. Click <strong>Save private key as .ppk</strong>
     <p align="center">
-    <img src="/images/picture12.png" alt="Screenshot of saving private key to SSH client" class="guide-screenshot" />
+    <img src="../images/picture12.png" alt="Screenshot of saving private key to SSH client" class="guide-screenshot" />
     </p>
 Now we can use the key in PuTTY to connect to a Virtual Machine.</p>
 </li>
@@ -754,11 +754,11 @@ Now we can use the key in PuTTY to connect to a Virtual Machine.</p>
 </li>
 <li>Go to <strong>Connection → SSH → Auth → Credentials</strong> and under <strong>Private key file for authentication</strong>, use the <strong>Browse</strong> button to select the converted .ppk file.
     <p align="center">
-    <img src="/images/picture13.png" alt="Screenshot of choosing correct private key file in PuTTY SSH client" class="guide-screenshot" />
+    <img src="../images/picture13.png" alt="Screenshot of choosing correct private key file in PuTTY SSH client" class="guide-screenshot" />
     </p></li>
 <li>Go to <strong>Session</strong> and under <strong>Saved Sessions</strong> write the name of the new session and click save.
     <p align="center">
-    <img src="/images/picture14.png" alt="Screenshot of saving session in PuTTY SSH client" class="guide-screenshot" />
+    <img src="../images/picture14.png" alt="Screenshot of saving session in PuTTY SSH client" class="guide-screenshot" />
     </p></li>
 </ol>
 <hr />
@@ -768,12 +768,12 @@ Now we can use the key in PuTTY to connect to a Virtual Machine.</p>
 <ol>
 <li>Go to <strong>Network → Security Groups</strong> and click <strong>+ Create Security Group</strong>. Name it and write a description.
     <p align="center">
-    <img src="/images/picture15.png" alt="A screenshot of a cPouta security groups dashboard" class="guide-screenshot" />
+    <img src="../images/picture15.png" alt="A screenshot of a cPouta security groups dashboard" class="guide-screenshot" />
     </p></li>
 <li>You should automatically be in <strong>Manage Rules</strong> section, if not click <strong>Manage Rules</strong> on the Security Group you just created. Click <strong>+ Add rule</strong></li>
 <li>Use the <strong>SSH</strong> rule and click <strong>Add</strong>. With CIDR you can define IP addresses allowed to connect.
     <p align="center">
-    <img src="/images/picture16.png" alt="A screenshot of a cPouta SSH setup" class="guide-screenshot" />
+    <img src="../images/picture16.png" alt="A screenshot of a cPouta SSH setup" class="guide-screenshot" />
     </p></li>
 </ol>
 <h3 id="cidr-explanation">CIDR explanation<a class="headerlink" href="#cidr-explanation" title="Permanent link">&para;</a></h3>
