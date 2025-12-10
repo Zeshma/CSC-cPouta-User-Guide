@@ -11,12 +11,12 @@ You will now see the MyCSC dashboard, which confirms the account is active.
   
 
 <p align="center">
-  <img src="/images/picture1.png" alt="A screenshot of MyCSC dashboard." class="guide-screenshot" />
+  <img src="../images/picture1.png" alt="A screenshot of MyCSC dashboard." class="guide-screenshot" />
 </p>
 
 **Note:** If you get Web login service – Stale request error (picture below), close the tab and try again. It sometimes needs multiple attempts.
 
 
 <p align="center">
-  <img src="/images/picture2.png" alt="Web login service - stale request error" class="guide-screenshot" />
+  <img src="../images/picture2.png" alt="Web login service - stale request error" class="guide-screenshot" />
 </p>
