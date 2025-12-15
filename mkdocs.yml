@@ -1,7 +1,6 @@
 site_name: CSC cPouta User Guide
 theme:
   name: material
-  custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.expand
@@ -9,6 +8,7 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - navigation.footer
   palette:
     - scheme: default
       toggle:
