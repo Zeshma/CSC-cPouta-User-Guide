@@ -6,11 +6,11 @@ After assigning a Floating IP to your virtual machine, you can connect to it usi
 2.	In **Host Name (or IP address)**, enter: ubuntu@(your Floating IP here) and click **Open**.
 **Note:** For your Floating IP check the guide **5.2 step 5**. 192.168.x.xxx is your virtual machine local IP, DO NOT use this.
        <p align="center">
-    <img src="../images/picture24.png" alt="A computer screenschot of putty interface" class="guide-screenshot" />
+    <img src="images/picture24.png" alt="A computer screenschot of putty interface" class="guide-screenshot" />
     </p>
 3.	You should now be connected to the virtual machine and see the terminal.
        <p align="center">
-    <img src="../images/picture25.png" alt="A screenshot of a putty terminal window" class="guide-screenshot" />
+    <img src="images/picture25.png" alt="A screenshot of a putty terminal window" class="guide-screenshot" />
     </p>
 4.	After logging in, update the system with the script below. This ensures your VM has the latest security patches.
 

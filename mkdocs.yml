@@ -1,4 +1,5 @@
 site_name: CSC cPouta User Guide
+use_directory_urls: false
 theme:
   name: material
   features:

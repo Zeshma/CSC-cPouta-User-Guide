@@ -53,7 +53,7 @@ This script creates two files in folder we are in, in this case inside my-demo-w
 
 Example picture how it should look like
        <p align="center">
-    <img src="../images/picture26.png" alt="Screenshot of container after sudo docker ps command" class="guide-screenshot" />
+    <img src="images/picture26.png" alt="Screenshot of container after sudo docker ps command" class="guide-screenshot" />
     </p>
 
 ---
@@ -64,7 +64,7 @@ For accessing website we need to open port 80 in cPouta dashboard.
 Go to **Network → Security groups → Create security group**. Name it for example ingress port 80
 Add rule. We create Custom TPC rule, you can add description if you want. Add 80 in Port
        <p align="center">
-    <img src="../images/picture27.png" alt="A screenshot of a cPouta add rule dashboard" class="guide-screenshot" />
+    <img src="images/picture27.png" alt="A screenshot of a cPouta add rule dashboard" class="guide-screenshot" />
     </p>
 
 Now you should be able to access your website using virtual machine floating IP. There should only be text HELLO WORD on the website.
